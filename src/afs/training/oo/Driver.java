@@ -2,24 +2,14 @@ package afs.training.oo;
 
 public class Driver {
 
-    private Bus bus;
+    private Vehicle vehicle;
 
-    private Truck truck;
-
-    public Driver(Bus bus) {
-        this.bus = bus;
+    public Driver(Vehicle vehicle) {
+        this.vehicle = vehicle;
     }
 
-    public Driver(Truck truck) {
-        this.truck = truck;
-    }
-
-    public void driveBus() {
-        bus.seepUp();
-    }
-
-    public void driveTruck() {
-        truck.seepUp();
+    public void drive() {
+        vehicle.seepUp();
     }
 
 }
